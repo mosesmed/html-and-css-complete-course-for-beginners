@@ -1,0 +1,80 @@
+/* desktop css */
+@media (min-width: 1171px){
+    .hamburger{
+        display: none;
+    }
+    .hero p{
+        width: 70%;
+    }
+    .container{
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+}
+
+
+/* tablet css */
+@media (min-width: 501px) and (max-width: 1170px){
+    .menu{
+        display: none;
+    }
+    #sign-up{
+        display: none;
+    }
+    .container{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .hero p{
+        width: 90%;
+    }
+    .hero h1 {
+        text-align: center;
+    }
+    .hamburger img{
+        width: 50px;
+    }
+}
+
+
+/* mobile css */
+@media (max-width: 500px){
+    .menu{
+        display: none;
+    }
+    .button-green{
+        display: none;
+    }
+    .hero h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .container{
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .hamburger img {
+        width: 35px;
+    }
+    .hero{
+        padding-top: 60px ;
+        padding-bottom: 150px;
+    }
+    .image img{
+        margin-top: -100px;
+    }
+    .enroll{
+        height: 40px;
+        padding: 0px 10px;
+        background-color: #01222C ;
+        color: #61CE70;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #61CE70;
+        font-size: 14px;
+        font-weight: bold;
+    }
+}

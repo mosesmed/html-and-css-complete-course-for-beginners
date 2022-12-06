@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .header{
+            background-color: red;
+            height: 70px;
+            color: white;
+            position: fixed;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+        }
+        .sidebar{
+            background-color: aqua;
+            position: fixed;
+            left: 0px;
+            top: 70px;
+            bottom: 0px;
+        }
+        .body{
+            display: flex;
+            flex-direction: row;
+        }
+        .main-content{
+            background-color: rgb(219, 219, 219);
+            padding: 30px;
+        }
+        body{
+            padding-top: 70px;
+            padding-left: 90px;
+        }
+        img{
+            width: 100%;
+        }
+        .close{
+            background-color: black;
+            color: white;
+            padding: 3px;
+            width: 10px;
+            position: absolute;
+            top: 5px;
+            right: 5px;
+        }
+        .bell{
+            width: 80px;
+        }
+        .count{
+            background-color: rgb(179, 0, 0);
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+            width: 10px;
+            position: absolute;
+            top: 5px;
+            left: 50px;
+            font-size: 14px;
+        }
+        .test-container{
+            position: relative;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        This is header
+    </div>
+    <div class="body">
+        <div class="sidebar">
+            <h3>this is sidebar</h3>
+            <p class="close">
+                X
+            </p>
+        </div>
+        <div class="main-content">
+            <h2>this is main content</h2>
+            <div class="test-container">
+                <img class="bell" src="img/bell.svg" alt="">
+                <p class="count">3</p>
+            </div>
+            <img src="img/larg.jpg" alt="">
+            <img src="img/larg.jpg" alt="">
+            
+        </div>
+    </div>
+   
+</body>
+</html>

@@ -1,0 +1,44 @@
+h2, p {
+    color: rgb(211, 211, 211);
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px 200px;
+    background-color: rgb(31, 31, 31);
+    gap: 20px;
+    padding: 100px;
+}
+.grid-item{
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px 1px black;
+}
+.i1{
+    background-color: rgb(9, 9, 41);
+}
+.i2{
+    background-color: rgb(66, 28, 28);
+}
+.i3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: rgb(18, 56, 56);
+}
+.i4{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: rgb(35, 14, 54);
+}
+.i6{
+    background-color: rgb(59, 32, 37);
+}
+button{
+    width: 70%;
+    height: 50px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
